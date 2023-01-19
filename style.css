@@ -189,7 +189,7 @@ body .dashboard .title {
 }
 
 .dashboard .stats .box>h3 {
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     text-transform: capitalize;
     color: var(--Desaturated_Blue);
     font-weight: normal;
@@ -218,7 +218,9 @@ body .dashboard .title {
 .overview {
     margin-top: 46px;
 }
-
+.overview h2 {
+    font-size: 22.5px;
+}
 .overview .cards {
     display: grid;
     grid-template-columns: repeat(4, minmax(250px, 1fr));
@@ -284,7 +286,7 @@ body .dashboard .title {
     color: var(--Bright_Red);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1430px) {
     body .container {
         width: 1110px;
         margin: auto;
