@@ -274,7 +274,7 @@ body .dashboard .title {
     }
 }
 
-@media (min-width: 991px) and (max-width: 1440px) {
+@media (min-width: 991px) and (max-width: 1430px) {
     body {
         padding: 15px 30px;
     }
