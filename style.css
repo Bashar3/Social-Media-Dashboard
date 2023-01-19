@@ -7,11 +7,6 @@
 body {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
 }
 
 body.dark {
@@ -37,20 +32,6 @@ body.dark {
     --Light_Grayish_Blue: hsl(227, 47%, 96%);
     --Dark_Grayish_Blue: hsl(228, 12%, 44%);
     --Very_Dark_Blue: hsl(230, 17%, 14%);
-}
-
-/* Attribution */
-.attribution {
-    font-size: 11px;
-    text-align: center;
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
 }
 
 /* ==================== Dashboard ==================== */
