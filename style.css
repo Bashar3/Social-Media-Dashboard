@@ -267,14 +267,14 @@ body .dashboard .title {
     color: var(--Bright_Red);
 }
 
-@media (min-width: 1430px) {
+@media (min-width: 1400px) {
     body .container {
         width: 1110px;
         margin: auto;
     }
 }
 
-@media (min-width: 991px) and (max-width: 1430px) {
+@media (min-width: 991px) and (max-width: 1400px) {
     body {
         padding: 15px 30px;
     }
